@@ -1,0 +1,200 @@
+
+<!doctype html>
+<html>
+<head><meta charset="utf-8"><title>Corporate Actions</title>
+<style>
+:root {
+  --bg: #0b1020;
+  --card: #141a2e;
+  --header-bg: #1b2240;
+  --text: #e7ecf3;
+  --accent: #bcd2ff;
+  --highlight-bg: #2a3b1f;
+  --highlight-text: #eaffc7;
+}
+
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  padding: 40px 20px;
+  margin: 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+}
+
+h1 { margin-bottom: 30px; font-weight: 300; letter-spacing: 1px; }
+
+/* Table Styling */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 30px 0;
+  background: var(--card);
+  box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+  border-radius: 8px;
+  overflow: hidden; /* Rounds the table corners */
+}
+
+caption {
+  font-size: 22px;
+  font-weight: 600;
+  text-align: left;
+  margin: 15px 0;
+  color: var(--accent);
+}
+
+th, td {
+  padding: 14px 16px;
+  text-align: left;
+  border-bottom: 1px solid #24304e;
+}
+
+th {
+  background: var(--header-bg);
+  color: var(--accent);
+  text-transform: uppercase;
+  font-size: 13px;
+  letter-spacing: 0.5px;
+  cursor: pointer;
+}
+
+/* Hover effect for rows */
+tbody tr:hover { background: rgba(255,255,255,0.03); }
+
+/* The 7-day Highlight */
+tr.highlight td {
+  background: var(--highlight-bg) !important;
+  color: var(--highlight-text);
+}
+
+/* Controls Styling */
+input#search {
+  padding: 12px 15px;
+  width: 100%;
+  max-width: 400px;
+  border-radius: 6px;
+  border: 1px solid #24304e;
+  background: var(--card);
+  color: white;
+  margin-bottom: 20px;
+}
+
+button#export {
+  padding: 10px 20px;
+  border-radius: 6px;
+  border: none;
+  background: #3d5afe;
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+button#export:hover { background: #536dfe; }
+</style>
+</head>
+<body>
+<div class="container">
+<h1>Upcoming Corporate Actions</h1>
+
+<input id="search" placeholder="Search company, symbol, action…">
+<button id="export">📤 Export CSV</button>
+
+
+<table>
+<caption>Dividends</caption>
+<thead><tr><th>Company</th><th>Type</th><th>Amount</th><th>Category</th><th>Ex-Date</th><th>Record Date</th></tr></thead>
+<tbody>
+<tr><td>Wipro Limited (WIPRO)</td><td>Dividend</td><td>₹6</td><td>Interim</td><td>2026-01-27</td><td>2026-01-27</td></tr><tr><td>Ksolves India Limited (KSOLVES)</td><td>Dividend</td><td>₹5</td><td>Interim</td><td>2026-01-27</td><td>2026-01-27</td></tr><tr><td>Persistent Systems Limited (PERSISTENT)</td><td>Dividend</td><td>₹22</td><td>Interim</td><td>2026-01-27</td><td>2026-01-27</td></tr><tr><td>SRF Limited (SRF)</td><td>Dividend</td><td>₹5</td><td>Interim</td><td>2026-01-27</td><td>2026-01-27</td></tr><tr><td>United Spirits Limited (UNITDSPR)</td><td>Dividend</td><td>₹6</td><td>Interim</td><td>2026-01-27</td><td>2026-01-27</td></tr><tr><td>KEI Industries Limited (KEI)</td><td>Dividend</td><td>₹4.50</td><td>Interim</td><td>2026-01-28</td><td>2026-01-28</td></tr><tr><td>K.P. Energy Limited (KPEL)</td><td>Dividend</td><td>₹0.20</td><td>Interim</td><td>2026-01-28</td><td>2026-01-28</td></tr><tr><td>KPI Green Energy Limited (KPIGREEN)</td><td>Dividend</td><td>₹0.20</td><td>Interim</td><td>2026-01-28</td><td>2026-01-28</td></tr><tr><td>Wendt (India) Limited (WENDT)</td><td>Dividend</td><td>₹20</td><td>Interim</td><td>2026-01-28</td><td>2026-01-28</td></tr><tr><td>Jindal Stainless Limited (JSL)</td><td>Dividend</td><td>₹1</td><td>Interim</td><td>2026-01-29</td><td>2026-01-29</td></tr><tr><td>Zensar Technologies Limited (ZENSARTECH)</td><td>Dividend</td><td>₹2.40</td><td>Interim</td><td>2026-01-29</td><td>2026-01-29</td></tr><tr><td>IIFL Finance Limited (IIFL)</td><td>Dividend</td><td>₹4</td><td>Interim</td><td>2026-01-29</td><td>2026-01-29</td></tr><tr><td>Orient Electric Limited (ORIENTELEC)</td><td>Dividend</td><td>₹0.75</td><td>Interim</td><td>2026-01-29</td><td>2026-01-29</td></tr><tr><td>Shanthi Gears Limited (SHANTIGEAR)</td><td>Dividend</td><td>₹3</td><td>Interim</td><td>2026-01-29</td><td>2026-01-29</td></tr><tr><td>India Motor Parts and Accessories Limited (IMPAL)</td><td>Dividend</td><td>₹10</td><td>Interim</td><td>2026-01-29</td><td>2026-01-29</td></tr><tr><td>Kirloskar Pneumatic Company Limited (KIRLPNU)</td><td>Dividend</td><td>₹3.50</td><td>Interim</td><td>2026-01-30</td><td>2026-01-30</td></tr><tr><td>Siemens Energy India Limited (ENRIN)</td><td>Dividend</td><td>₹4</td><td>-</td><td>2026-01-30</td><td>2026-01-30</td></tr><tr><td>Godrej Consumer Products Limited (GODREJCP)</td><td>Dividend</td><td>₹5</td><td>Interim</td><td>2026-01-30</td><td>2026-01-30</td></tr><tr><td>Innova Captab Limited (INNOVACAP)</td><td>Dividend</td><td>₹2</td><td>Interim</td><td>2026-01-30</td><td>2026-01-30</td></tr><tr><td>Gandhar Oil Refinery (India) Limited (GANDHAR)</td><td>Dividend</td><td>₹0.75</td><td>Interim</td><td>2026-01-30</td><td>2026-01-30</td></tr><tr><td>Advani Hotels &amp; Resorts (India) Limited (ADVANIHOTR)</td><td>Dividend</td><td>₹1</td><td>Interim</td><td>2026-01-30</td><td>2026-01-30</td></tr><tr><td>Sona BLW Precision Forgings Limited (SONACOMS)</td><td>Dividend</td><td>₹1.60</td><td>Interim</td><td>2026-01-30</td><td>2026-01-30</td></tr><tr><td>Mastek Limited (MASTEK)</td><td>Dividend</td><td>₹8</td><td>Interim</td><td>2026-01-30</td><td>2026-01-30</td></tr><tr><td>Computer Age Management Services Limited (CAMS)</td><td>Dividend</td><td>₹3.50</td><td>Interim</td><td>2026-01-30</td><td>2026-01-30</td></tr><tr><td>Coforge Limited (COFORGE)</td><td>Dividend</td><td>₹4</td><td>Interim</td><td>2026-01-30</td><td>2026-01-31</td></tr><tr><td>Bharat Petroleum Corporation Limited (BPCL)</td><td>Dividend</td><td>₹10</td><td>Interim</td><td>2026-02-02</td><td>2026-02-02</td></tr>
+</tbody>
+</table>
+
+
+<table>
+<caption>Bonus Issues</caption>
+<thead><tr><th>Company</th><th>Ratio</th><th>Ex-Date</th><th>Record Date</th></tr></thead>
+<tbody>
+
+</tbody>
+</table>
+
+
+<table>
+<caption>Splits &amp; Others</caption>
+<thead><tr><th>Company</th><th>Action</th><th>From</th><th>To</th><th>Ex-Date</th><th>Record Date</th></tr></thead>
+<tbody>
+<tr><td>Matrimony.Com Limited (MATRIMONY)</td><td>Buy Back</td><td>-</td><td>-</td><td>2026-01-30</td><td>2026-01-30</td></tr><tr><td>Genus Power Infrastructures Limited (GENUSPOWER)</td><td>Demerger</td><td>-</td><td>-</td><td>2026-02-06</td><td>2026-02-06</td></tr>
+</tbody>
+</table>
+
+
+<p><b>Green rows:</b> Ex-date within next 7 days</p>
+</div>
+
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+
+  // SEARCH
+  const search = document.getElementById("search");
+  search.addEventListener("input", () => {
+    const q = search.value.toLowerCase();
+    document.querySelectorAll("tbody tr").forEach(tr => {
+      tr.style.display = tr.innerText.toLowerCase().includes(q) ? "" : "none";
+    });
+  });
+
+  // SORT
+  document.querySelectorAll("table").forEach(table => {
+    table.querySelectorAll("th").forEach((th, idx) => {
+      th.addEventListener("click", () => {
+        const asc = !th.classList.contains("asc");
+        table.querySelectorAll("th").forEach(h=>h.classList.remove("asc","desc"));
+        th.classList.add(asc?"asc":"desc");
+
+        const rows = [...table.tBodies[0].rows];
+        rows.sort((a,b)=>{
+          const A=a.cells[idx].innerText,B=b.cells[idx].innerText;
+          return asc?A.localeCompare(B):B.localeCompare(A);
+        });
+        rows.forEach(r=>table.tBodies[0].appendChild(r));
+      });
+    });
+  });
+
+  // EX-DATE HIGHLIGHT <= 7 DAYS
+  const today = new Date();
+  document.querySelectorAll("tbody tr").forEach(tr=>{
+    const cells=[...tr.cells];
+    cells.forEach(c=>{
+      if(/^\d{4}-\d{2}-\d{2}$/.test(c.innerText)){
+        const d=new Date(c.innerText);
+        const diff=(d-today)/(1000*60*60*24);
+        if(diff>=0 && diff<=7) tr.classList.add("highlight");
+      }
+    });
+  });
+
+  // CSV EXPORT
+  document.getElementById("export").onclick = () => {
+    let csv=[];
+    document.querySelectorAll("table").forEach(t=>{
+      t.querySelectorAll("tr").forEach(r=>{
+        csv.push([...r.children].map(td=>'"'+td.innerText+'"').join(","));
+      });
+    });
+    const blob=new Blob([csv.join("\n")],{type:"text/csv"});
+    const a=document.createElement("a");
+    a.href=URL.createObjectURL(blob);
+    a.download="corporate_actions.csv";
+    a.click();
+  };
+
+});
+</script>
+
+</body>
+</html>
