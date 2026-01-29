@@ -1,7 +1,11 @@
 
 <!doctype html>
-<html>
-<head><meta charset="utf-8"><title>Corporate Actions</title>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Corporate Actions</title>
+
 <style>
 :root {
   --bg: #0b1020;
@@ -13,11 +17,12 @@
   --highlight-text: #eaffc7;
 }
 
+* { box-sizing: border-box; }
 body {
   background: var(--bg);
   color: var(--text);
   font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
-  padding: 40px 20px;
+  padding: 20px;
   margin: 0;
 }
 
@@ -26,128 +31,116 @@ body {
   margin: auto;
 }
 
-h1 { margin-bottom: 30px; font-weight: 300; letter-spacing: 1px; }
+h1 { margin-bottom: 20px; font-weight: 300; letter-spacing: 1px; }
 
-/* Table Styling */
-table {
-  width: 100%;
-  border-collapse: collapse;
-  margin: 30px 0;
-  background: var(--card);
-  box-shadow: 0 4px 15px rgba(0,0,0,0.3);
-  border-radius: 8px;
-  overflow: hidden; /* Rounds the table corners */
-}
+.controls { display:flex; gap:10px; align-items:center; flex-wrap:wrap; margin-bottom:12px; }
 
-caption {
-  font-size: 22px;
-  font-weight: 600;
-  text-align: left;
-  margin: 15px 0;
-  color: var(--accent);
-}
-
-th, td {
-  padding: 14px 16px;
-  text-align: left;
-  border-bottom: 1px solid #24304e;
-}
-
-th {
-  background: var(--header-bg);
-  color: var(--accent);
-  text-transform: uppercase;
-  font-size: 13px;
-  letter-spacing: 0.5px;
-  cursor: pointer;
-}
-
-/* Hover effect for rows */
-tbody tr:hover { background: rgba(255,255,255,0.03); }
-
-/* The 7-day Highlight */
-tr.highlight td {
-  background: var(--highlight-bg) !important;
-  color: var(--highlight-text);
-}
-
-/* Controls Styling */
 input#search {
-  padding: 12px 15px;
+  padding: 10px 12px;
   width: 100%;
-  max-width: 400px;
+  max-width: 420px;
   border-radius: 6px;
   border: 1px solid #24304e;
   background: var(--card);
   color: white;
-  margin-bottom: 20px;
 }
 
 button#export {
-  padding: 10px 20px;
+  padding: 10px 14px;
   border-radius: 6px;
   border: none;
   background: #3d5afe;
   color: white;
   font-weight: 600;
   cursor: pointer;
-  transition: background 0.2s;
 }
 
 button#export:hover { background: #536dfe; }
+
+.table-wrap { margin: 18px 0; overflow-x: auto; border-radius:8px; }
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background: var(--card);
+  box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+  border-radius: 8px;
+  overflow: hidden;
+  min-width: 600px;
+}
+caption { font-size: 20px; font-weight:600; text-align:left; margin:12px 16px; color:var(--accent); }
+th, td { padding: 12px 14px; text-align: left; border-bottom: 1px solid #24304e; }
+th { background: var(--header-bg); color: var(--accent); text-transform: uppercase; font-size:12px; cursor: pointer; position: sticky; top:0; z-index:2; }
+
+tbody tr:hover { background: rgba(255,255,255,0.03); }
+
+tr.highlight td { background: var(--highlight-bg) !important; color: var(--highlight-text); }
+
+/* Responsive tweaks */
+@media (max-width: 700px) {
+  th:nth-child(3), td:nth-child(3) { display:none; }
+  th:nth-child(4), td:nth-child(4) { display:none; }
+}
+
+.small { font-size: 13px; color:#cbd6ff; }
 </style>
+
 </head>
 <body>
 <div class="container">
 <h1>Upcoming Corporate Actions</h1>
 
-<input id="search" placeholder="Search company, symbol, action…">
-<button id="export">📤 Export CSV</button>
+<div class="controls">
+  <input id="search" placeholder="Search company, symbol, action…" />
+  <button id="export" aria-label="Export visible rows to CSV">📤 Export CSV</button>
+</div>
 
+<div class="table-wrap" role="region" aria-label="Dividends"><table><caption>Dividends</caption><thead><tr><th scope="col">Company</th><th scope="col">Type</th><th scope="col">Amount</th><th scope="col">Category</th><th scope="col">Ex-Date</th><th scope="col">Record Date</th></tr></thead><tbody><tr><td>IIFL Finance Limited (IIFL)</td><td>Dividend</td><td>₹4</td><td>Interim</td><td data-date="2026-01-29">2026-01-29</td><td data-date="2026-01-29">2026-01-29</td></tr>
+<tr><td>Orient Electric Limited (ORIENTELEC)</td><td>Dividend</td><td>₹0.75</td><td>Interim</td><td data-date="2026-01-29">2026-01-29</td><td data-date="2026-01-29">2026-01-29</td></tr>
+<tr><td>India Motor Parts and Accessories Limited (IMPAL)</td><td>Dividend</td><td>₹10</td><td>Interim</td><td data-date="2026-01-29">2026-01-29</td><td data-date="2026-01-29">2026-01-29</td></tr>
+<tr><td>Jindal Stainless Limited (JSL)</td><td>Dividend</td><td>₹1</td><td>Interim</td><td data-date="2026-01-29">2026-01-29</td><td data-date="2026-01-29">2026-01-29</td></tr>
+<tr><td>Shanthi Gears Limited (SHANTIGEAR)</td><td>Dividend</td><td>₹3</td><td>Interim</td><td data-date="2026-01-29">2026-01-29</td><td data-date="2026-01-29">2026-01-29</td></tr>
+<tr><td>Zensar Technologies Limited (ZENSARTECH)</td><td>Dividend</td><td>₹2.40</td><td>Interim</td><td data-date="2026-01-29">2026-01-29</td><td data-date="2026-01-29">2026-01-29</td></tr>
+<tr><td>Sona BLW Precision Forgings Limited (SONACOMS)</td><td>Dividend</td><td>₹1.60</td><td>Interim</td><td data-date="2026-01-30">2026-01-30</td><td data-date="2026-01-30">2026-01-30</td></tr>
+<tr><td>Kirloskar Pneumatic Company Limited (KIRLPNU)</td><td>Dividend</td><td>₹3.50</td><td>Interim</td><td data-date="2026-01-30">2026-01-30</td><td data-date="2026-01-30">2026-01-30</td></tr>
+<tr><td>Motilal Oswal Financial Services Limited (MOTILALOFS)</td><td>Dividend</td><td>₹6</td><td>Interim</td><td data-date="2026-01-30">2026-01-30</td><td data-date="2026-01-31">2026-01-31</td></tr>
+<tr><td>Mastek Limited (MASTEK)</td><td>Dividend</td><td>₹8</td><td>Interim</td><td data-date="2026-01-30">2026-01-30</td><td data-date="2026-01-30">2026-01-30</td></tr>
+<tr><td>Coforge Limited (COFORGE)</td><td>Dividend</td><td>₹4</td><td>Interim</td><td data-date="2026-01-30">2026-01-30</td><td data-date="2026-01-31">2026-01-31</td></tr>
+<tr><td>Godrej Consumer Products Limited (GODREJCP)</td><td>Dividend</td><td>₹5</td><td>Interim</td><td data-date="2026-01-30">2026-01-30</td><td data-date="2026-01-30">2026-01-30</td></tr>
+<tr><td>Innova Captab Limited (INNOVACAP)</td><td>Dividend</td><td>₹2</td><td>Interim</td><td data-date="2026-01-30">2026-01-30</td><td data-date="2026-01-30">2026-01-30</td></tr>
+<tr><td>CG Power and Industrial Solutions Limited (CGPOWER)</td><td>Dividend</td><td>₹1.30</td><td>Interim</td><td data-date="2026-01-30">2026-01-30</td><td data-date="2026-02-01">2026-02-01</td></tr>
+<tr><td>Advani Hotels &amp; Resorts (India) Limited (ADVANIHOTR)</td><td>Dividend</td><td>₹1</td><td>Interim</td><td data-date="2026-01-30">2026-01-30</td><td data-date="2026-01-30">2026-01-30</td></tr>
+<tr><td>Gandhar Oil Refinery (India) Limited (GANDHAR)</td><td>Dividend</td><td>₹0.75</td><td>Interim</td><td data-date="2026-01-30">2026-01-30</td><td data-date="2026-01-30">2026-01-30</td></tr>
+<tr><td>Siemens Energy India Limited (ENRIN)</td><td>Dividend</td><td>₹4</td><td>-</td><td data-date="2026-01-30">2026-01-30</td><td data-date="2026-01-30">2026-01-30</td></tr>
+<tr><td>Computer Age Management Services Limited (CAMS)</td><td>Dividend</td><td>₹3.50</td><td>Interim</td><td data-date="2026-01-30">2026-01-30</td><td data-date="2026-01-30">2026-01-30</td></tr>
+<tr><td>Gopal Snacks Limited (GOPAL)</td><td>Dividend</td><td>₹0.35</td><td>Interim</td><td data-date="2026-02-02">2026-02-02</td><td data-date="2026-02-02">2026-02-02</td></tr>
+<tr><td>Metro Brands Limited (METROBRAND)</td><td>Dividend</td><td>₹3</td><td>Interim</td><td data-date="2026-02-02">2026-02-02</td><td data-date="2026-02-02">2026-02-02</td></tr>
+<tr><td>Bharat Petroleum Corporation Limited (BPCL)</td><td>Dividend</td><td>₹10</td><td>Interim</td><td data-date="2026-02-02">2026-02-02</td><td data-date="2026-02-02">2026-02-02</td></tr>
+<tr><td>Share India Securities Limited (SHAREINDIA)</td><td>Dividend</td><td>₹0.40</td><td>Interim</td><td data-date="2026-02-02">2026-02-02</td><td data-date="2026-02-02">2026-02-02</td></tr>
+<tr><td>Siyaram Silk Mills Limited (SIYSIL)</td><td>Dividend</td><td>₹3</td><td>Interim</td><td data-date="2026-02-02">2026-02-02</td><td data-date="2026-02-02">2026-02-02</td></tr>
+<tr><td>Vaibhav Global Limited (VAIBHAVGBL)</td><td>Dividend</td><td>₹1.50</td><td>Interim</td><td data-date="2026-02-03">2026-02-03</td><td data-date="2026-02-03">2026-02-03</td></tr></tbody></table></div>
+<div class="table-wrap" role="region" aria-label="Bonus Issues"><table><caption>Bonus Issues</caption><thead><tr><th scope="col">Company</th><th scope="col">Ratio</th><th scope="col">Ex-Date</th><th scope="col">Record Date</th></tr></thead><tbody></tbody></table></div>
+<div class="table-wrap" role="region" aria-label="Splits &amp; Others"><table><caption>Splits &amp; Others</caption><thead><tr><th scope="col">Company</th><th scope="col">Action</th><th scope="col">From</th><th scope="col">To</th><th scope="col">Ex-Date</th><th scope="col">Record Date</th></tr></thead><tbody><tr><td>Matrimony.Com Limited (MATRIMONY)</td><td>Buy Back</td><td>-</td><td>-</td><td data-date="2026-01-30">2026-01-30</td><td data-date="2026-01-30">2026-01-30</td></tr>
+<tr><td>Genus Power Infrastructures Limited (GENUSPOWER)</td><td>Demerger</td><td>-</td><td>-</td><td data-date="2026-02-06">2026-02-06</td><td data-date="2026-02-06">2026-02-06</td></tr></tbody></table></div>
 
-<table>
-<caption>Dividends</caption>
-<thead><tr><th>Company</th><th>Type</th><th>Amount</th><th>Category</th><th>Ex-Date</th><th>Record Date</th></tr></thead>
-<tbody>
-<tr><td>IIFL Finance Limited (IIFL)</td><td>Dividend</td><td>₹4</td><td>Interim</td><td>2026-01-29</td><td>2026-01-29</td></tr><tr><td>Orient Electric Limited (ORIENTELEC)</td><td>Dividend</td><td>₹0.75</td><td>Interim</td><td>2026-01-29</td><td>2026-01-29</td></tr><tr><td>India Motor Parts and Accessories Limited (IMPAL)</td><td>Dividend</td><td>₹10</td><td>Interim</td><td>2026-01-29</td><td>2026-01-29</td></tr><tr><td>Jindal Stainless Limited (JSL)</td><td>Dividend</td><td>₹1</td><td>Interim</td><td>2026-01-29</td><td>2026-01-29</td></tr><tr><td>Shanthi Gears Limited (SHANTIGEAR)</td><td>Dividend</td><td>₹3</td><td>Interim</td><td>2026-01-29</td><td>2026-01-29</td></tr><tr><td>Zensar Technologies Limited (ZENSARTECH)</td><td>Dividend</td><td>₹2.40</td><td>Interim</td><td>2026-01-29</td><td>2026-01-29</td></tr><tr><td>Sona BLW Precision Forgings Limited (SONACOMS)</td><td>Dividend</td><td>₹1.60</td><td>Interim</td><td>2026-01-30</td><td>2026-01-30</td></tr><tr><td>Kirloskar Pneumatic Company Limited (KIRLPNU)</td><td>Dividend</td><td>₹3.50</td><td>Interim</td><td>2026-01-30</td><td>2026-01-30</td></tr><tr><td>Motilal Oswal Financial Services Limited (MOTILALOFS)</td><td>Dividend</td><td>₹6</td><td>Interim</td><td>2026-01-30</td><td>2026-01-31</td></tr><tr><td>Mastek Limited (MASTEK)</td><td>Dividend</td><td>₹8</td><td>Interim</td><td>2026-01-30</td><td>2026-01-30</td></tr><tr><td>Coforge Limited (COFORGE)</td><td>Dividend</td><td>₹4</td><td>Interim</td><td>2026-01-30</td><td>2026-01-31</td></tr><tr><td>Godrej Consumer Products Limited (GODREJCP)</td><td>Dividend</td><td>₹5</td><td>Interim</td><td>2026-01-30</td><td>2026-01-30</td></tr><tr><td>Innova Captab Limited (INNOVACAP)</td><td>Dividend</td><td>₹2</td><td>Interim</td><td>2026-01-30</td><td>2026-01-30</td></tr><tr><td>CG Power and Industrial Solutions Limited (CGPOWER)</td><td>Dividend</td><td>₹1.30</td><td>Interim</td><td>2026-01-30</td><td>2026-02-01</td></tr><tr><td>Advani Hotels &amp; Resorts (India) Limited (ADVANIHOTR)</td><td>Dividend</td><td>₹1</td><td>Interim</td><td>2026-01-30</td><td>2026-01-30</td></tr><tr><td>Gandhar Oil Refinery (India) Limited (GANDHAR)</td><td>Dividend</td><td>₹0.75</td><td>Interim</td><td>2026-01-30</td><td>2026-01-30</td></tr><tr><td>Siemens Energy India Limited (ENRIN)</td><td>Dividend</td><td>₹4</td><td>-</td><td>2026-01-30</td><td>2026-01-30</td></tr><tr><td>Computer Age Management Services Limited (CAMS)</td><td>Dividend</td><td>₹3.50</td><td>Interim</td><td>2026-01-30</td><td>2026-01-30</td></tr><tr><td>Gopal Snacks Limited (GOPAL)</td><td>Dividend</td><td>₹0.35</td><td>Interim</td><td>2026-02-02</td><td>2026-02-02</td></tr><tr><td>Metro Brands Limited (METROBRAND)</td><td>Dividend</td><td>₹3</td><td>Interim</td><td>2026-02-02</td><td>2026-02-02</td></tr><tr><td>Bharat Petroleum Corporation Limited (BPCL)</td><td>Dividend</td><td>₹10</td><td>Interim</td><td>2026-02-02</td><td>2026-02-02</td></tr><tr><td>Share India Securities Limited (SHAREINDIA)</td><td>Dividend</td><td>₹0.40</td><td>Interim</td><td>2026-02-02</td><td>2026-02-02</td></tr><tr><td>Siyaram Silk Mills Limited (SIYSIL)</td><td>Dividend</td><td>₹3</td><td>Interim</td><td>2026-02-02</td><td>2026-02-02</td></tr><tr><td>Vaibhav Global Limited (VAIBHAVGBL)</td><td>Dividend</td><td>₹1.50</td><td>Interim</td><td>2026-02-03</td><td>2026-02-03</td></tr>
-</tbody>
-</table>
-
-
-<table>
-<caption>Bonus Issues</caption>
-<thead><tr><th>Company</th><th>Ratio</th><th>Ex-Date</th><th>Record Date</th></tr></thead>
-<tbody>
-
-</tbody>
-</table>
-
-
-<table>
-<caption>Splits &amp; Others</caption>
-<thead><tr><th>Company</th><th>Action</th><th>From</th><th>To</th><th>Ex-Date</th><th>Record Date</th></tr></thead>
-<tbody>
-<tr><td>Matrimony.Com Limited (MATRIMONY)</td><td>Buy Back</td><td>-</td><td>-</td><td>2026-01-30</td><td>2026-01-30</td></tr><tr><td>Genus Power Infrastructures Limited (GENUSPOWER)</td><td>Demerger</td><td>-</td><td>-</td><td>2026-02-06</td><td>2026-02-06</td></tr>
-</tbody>
-</table>
-
-
-<p><b>Green rows:</b> Ex-date within next 7 days</p>
+<p class="small"><b>Green rows:</b> Ex-date within next 7 days</p>
 </div>
 
 <script>
 document.addEventListener("DOMContentLoaded", () => {
 
-  // SEARCH
+  // Accessible search
   const search = document.getElementById("search");
+  search.setAttribute('aria-label','Search corporate actions');
   search.addEventListener("input", () => {
     const q = search.value.toLowerCase();
     document.querySelectorAll("tbody tr").forEach(tr => {
-      tr.style.display = tr.innerText.toLowerCase().includes(q) ? "" : "none";
+      const visible = tr.innerText.toLowerCase().includes(q);
+      tr.style.display = visible ? "" : "none";
     });
   });
 
-  // SORT
+  // Sorting with ISO date awareness
   document.querySelectorAll("table").forEach(table => {
     table.querySelectorAll("th").forEach((th, idx) => {
       th.addEventListener("click", () => {
@@ -157,39 +150,56 @@ document.addEventListener("DOMContentLoaded", () => {
 
         const rows = [...table.tBodies[0].rows];
         rows.sort((a,b)=>{
-          const A=a.cells[idx].innerText,B=b.cells[idx].innerText;
-          return asc?A.localeCompare(B):B.localeCompare(A);
+          const Acell = a.cells[idx], Bcell = b.cells[idx];
+          // Prefer data-date attribute if present
+          const Adate = Acell && Acell.dataset && Acell.dataset.date;
+          const Bdate = Bcell && Bcell.dataset && Bcell.dataset.date;
+          if(Adate || Bdate) {
+            // empty dates go to end
+            if(!Adate) return 1;
+            if(!Bdate) return -1;
+            return asc ? (new Date(Adate) - new Date(Bdate)) : (new Date(Bdate) - new Date(Adate));
+          }
+          // Numeric compare
+          const An = parseFloat(Acell.innerText.replace(/[^0-9.-]/g,''));
+          const Bn = parseFloat(Bcell.innerText.replace(/[^0-9.-]/g,''));
+          if(!isNaN(An) && !isNaN(Bn)) return asc ? An - Bn : Bn - An;
+          // Fallback to locale string
+          return asc ? Acell.innerText.localeCompare(Bcell.innerText) : Bcell.innerText.localeCompare(Acell.innerText);
         });
         rows.forEach(r=>table.tBodies[0].appendChild(r));
       });
     });
   });
 
-  // EX-DATE HIGHLIGHT <= 7 DAYS
+  // EX-DATE HIGHLIGHT <= 7 DAYS using data-date attribute
   const today = new Date();
   document.querySelectorAll("tbody tr").forEach(tr=>{
-    const cells=[...tr.cells];
-    cells.forEach(c=>{
-      if(/^\d{4}-\d{2}-\d{2}$/.test(c.innerText)){
-        const d=new Date(c.innerText);
-        const diff=(d-today)/(1000*60*60*24);
-        if(diff>=0 && diff<=7) tr.classList.add("highlight");
-      }
-    });
+    const dateCells = [...tr.querySelectorAll('td[data-date]')];
+    for(const c of dateCells){
+      const d = new Date(c.dataset.date);
+      const diff = (d - today) / (1000*60*60*24);
+      if(!isNaN(diff) && diff >= 0 && diff <= 7) { tr.classList.add("highlight"); break; }
+    }
   });
 
-  // CSV EXPORT
+  // CSV EXPORT: only visible rows, include headers
   document.getElementById("export").onclick = () => {
-    let csv=[];
-    document.querySelectorAll("table").forEach(t=>{
-      t.querySelectorAll("tr").forEach(r=>{
-        csv.push([...r.children].map(td=>'"'+td.innerText+'"').join(","));
+    const csvLines = [];
+    document.querySelectorAll('table').forEach(tbl => {
+      const headers = [...tbl.querySelectorAll('th')].map(th => '"'+th.innerText.replace(/"/g,'""')+'"');
+      csvLines.push(headers.join(','));
+      [...tbl.tBodies[0].rows].filter(r=>r.style.display !== 'none').forEach(r => {
+        const cols = [...r.cells].map(td => '"'+td.innerText.replace(/"/g,'""')+'"');
+        csvLines.push(cols.join(','));
       });
+      csvLines.push('');
     });
-    const blob=new Blob([csv.join("\n")],{type:"text/csv"});
-    const a=document.createElement("a");
-    a.href=URL.createObjectURL(blob);
-    a.download="corporate_actions.csv";
+    const blob = new Blob([csvLines.join('
+')], {type: 'text/csv;charset=utf-8;'});
+    const a = document.createElement('a');
+    a.href = URL.createObjectURL(blob);
+    a.download = 'corporate_actions.csv';
     a.click();
   };
 
