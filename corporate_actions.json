@@ -1,94 +1,6 @@
 {
   "dividends": [
     {
-      "name": "Wipro Limited",
-      "symbol": "WIPRO",
-      "amount": "\u20b96",
-      "cat": "Interim",
-      "ex": "2026-01-27",
-      "rec": "2026-01-27"
-    },
-    {
-      "name": "Ksolves India Limited",
-      "symbol": "KSOLVES",
-      "amount": "\u20b95",
-      "cat": "Interim",
-      "ex": "2026-01-27",
-      "rec": "2026-01-27"
-    },
-    {
-      "name": "Persistent Systems Limited",
-      "symbol": "PERSISTENT",
-      "amount": "\u20b922",
-      "cat": "Interim",
-      "ex": "2026-01-27",
-      "rec": "2026-01-27"
-    },
-    {
-      "name": "SRF Limited",
-      "symbol": "SRF",
-      "amount": "\u20b95",
-      "cat": "Interim",
-      "ex": "2026-01-27",
-      "rec": "2026-01-27"
-    },
-    {
-      "name": "United Spirits Limited",
-      "symbol": "UNITDSPR",
-      "amount": "\u20b96",
-      "cat": "Interim",
-      "ex": "2026-01-27",
-      "rec": "2026-01-27"
-    },
-    {
-      "name": "KEI Industries Limited",
-      "symbol": "KEI",
-      "amount": "\u20b94.50",
-      "cat": "Interim",
-      "ex": "2026-01-28",
-      "rec": "2026-01-28"
-    },
-    {
-      "name": "K.P. Energy Limited",
-      "symbol": "KPEL",
-      "amount": "\u20b90.20",
-      "cat": "Interim",
-      "ex": "2026-01-28",
-      "rec": "2026-01-28"
-    },
-    {
-      "name": "KPI Green Energy Limited",
-      "symbol": "KPIGREEN",
-      "amount": "\u20b90.20",
-      "cat": "Interim",
-      "ex": "2026-01-28",
-      "rec": "2026-01-28"
-    },
-    {
-      "name": "Wendt (India) Limited",
-      "symbol": "WENDT",
-      "amount": "\u20b920",
-      "cat": "Interim",
-      "ex": "2026-01-28",
-      "rec": "2026-01-28"
-    },
-    {
-      "name": "Jindal Stainless Limited",
-      "symbol": "JSL",
-      "amount": "\u20b91",
-      "cat": "Interim",
-      "ex": "2026-01-29",
-      "rec": "2026-01-29"
-    },
-    {
-      "name": "Zensar Technologies Limited",
-      "symbol": "ZENSARTECH",
-      "amount": "\u20b92.40",
-      "cat": "Interim",
-      "ex": "2026-01-29",
-      "rec": "2026-01-29"
-    },
-    {
       "name": "IIFL Finance Limited",
       "symbol": "IIFL",
       "amount": "\u20b94",
@@ -105,6 +17,22 @@
       "rec": "2026-01-29"
     },
     {
+      "name": "India Motor Parts and Accessories Limited",
+      "symbol": "IMPAL",
+      "amount": "\u20b910",
+      "cat": "Interim",
+      "ex": "2026-01-29",
+      "rec": "2026-01-29"
+    },
+    {
+      "name": "Jindal Stainless Limited",
+      "symbol": "JSL",
+      "amount": "\u20b91",
+      "cat": "Interim",
+      "ex": "2026-01-29",
+      "rec": "2026-01-29"
+    },
+    {
       "name": "Shanthi Gears Limited",
       "symbol": "SHANTIGEAR",
       "amount": "\u20b93",
@@ -113,12 +41,20 @@
       "rec": "2026-01-29"
     },
     {
-      "name": "India Motor Parts and Accessories Limited",
-      "symbol": "IMPAL",
-      "amount": "\u20b910",
+      "name": "Zensar Technologies Limited",
+      "symbol": "ZENSARTECH",
+      "amount": "\u20b92.40",
       "cat": "Interim",
       "ex": "2026-01-29",
       "rec": "2026-01-29"
+    },
+    {
+      "name": "Sona BLW Precision Forgings Limited",
+      "symbol": "SONACOMS",
+      "amount": "\u20b91.60",
+      "cat": "Interim",
+      "ex": "2026-01-30",
+      "rec": "2026-01-30"
     },
     {
       "name": "Kirloskar Pneumatic Company Limited",
@@ -129,12 +65,28 @@
       "rec": "2026-01-30"
     },
     {
-      "name": "Siemens Energy India Limited",
-      "symbol": "ENRIN",
-      "amount": "\u20b94",
-      "cat": "-",
+      "name": "Motilal Oswal Financial Services Limited",
+      "symbol": "MOTILALOFS",
+      "amount": "\u20b96",
+      "cat": "Interim",
+      "ex": "2026-01-30",
+      "rec": "2026-01-31"
+    },
+    {
+      "name": "Mastek Limited",
+      "symbol": "MASTEK",
+      "amount": "\u20b98",
+      "cat": "Interim",
       "ex": "2026-01-30",
       "rec": "2026-01-30"
+    },
+    {
+      "name": "Coforge Limited",
+      "symbol": "COFORGE",
+      "amount": "\u20b94",
+      "cat": "Interim",
+      "ex": "2026-01-30",
+      "rec": "2026-01-31"
     },
     {
       "name": "Godrej Consumer Products Limited",
@@ -153,12 +105,12 @@
       "rec": "2026-01-30"
     },
     {
-      "name": "Gandhar Oil Refinery (India) Limited",
-      "symbol": "GANDHAR",
-      "amount": "\u20b90.75",
+      "name": "CG Power and Industrial Solutions Limited",
+      "symbol": "CGPOWER",
+      "amount": "\u20b91.30",
       "cat": "Interim",
       "ex": "2026-01-30",
-      "rec": "2026-01-30"
+      "rec": "2026-02-01"
     },
     {
       "name": "Advani Hotels & Resorts (India) Limited",
@@ -169,18 +121,18 @@
       "rec": "2026-01-30"
     },
     {
-      "name": "Sona BLW Precision Forgings Limited",
-      "symbol": "SONACOMS",
-      "amount": "\u20b91.60",
+      "name": "Gandhar Oil Refinery (India) Limited",
+      "symbol": "GANDHAR",
+      "amount": "\u20b90.75",
       "cat": "Interim",
       "ex": "2026-01-30",
       "rec": "2026-01-30"
     },
     {
-      "name": "Mastek Limited",
-      "symbol": "MASTEK",
-      "amount": "\u20b98",
-      "cat": "Interim",
+      "name": "Siemens Energy India Limited",
+      "symbol": "ENRIN",
+      "amount": "\u20b94",
+      "cat": "-",
       "ex": "2026-01-30",
       "rec": "2026-01-30"
     },
@@ -193,12 +145,20 @@
       "rec": "2026-01-30"
     },
     {
-      "name": "Coforge Limited",
-      "symbol": "COFORGE",
-      "amount": "\u20b94",
+      "name": "Gopal Snacks Limited",
+      "symbol": "GOPAL",
+      "amount": "\u20b90.35",
       "cat": "Interim",
-      "ex": "2026-01-30",
-      "rec": "2026-01-31"
+      "ex": "2026-02-02",
+      "rec": "2026-02-02"
+    },
+    {
+      "name": "Metro Brands Limited",
+      "symbol": "METROBRAND",
+      "amount": "\u20b93",
+      "cat": "Interim",
+      "ex": "2026-02-02",
+      "rec": "2026-02-02"
     },
     {
       "name": "Bharat Petroleum Corporation Limited",
@@ -207,6 +167,30 @@
       "cat": "Interim",
       "ex": "2026-02-02",
       "rec": "2026-02-02"
+    },
+    {
+      "name": "Share India Securities Limited",
+      "symbol": "SHAREINDIA",
+      "amount": "\u20b90.40",
+      "cat": "Interim",
+      "ex": "2026-02-02",
+      "rec": "2026-02-02"
+    },
+    {
+      "name": "Siyaram Silk Mills Limited",
+      "symbol": "SIYSIL",
+      "amount": "\u20b93",
+      "cat": "Interim",
+      "ex": "2026-02-02",
+      "rec": "2026-02-02"
+    },
+    {
+      "name": "Vaibhav Global Limited",
+      "symbol": "VAIBHAVGBL",
+      "amount": "\u20b91.50",
+      "cat": "Interim",
+      "ex": "2026-02-03",
+      "rec": "2026-02-03"
     }
   ],
   "bonuses": [],
