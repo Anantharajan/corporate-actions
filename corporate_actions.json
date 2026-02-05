@@ -1,137 +1,17 @@
 {
   "dividends": [
     {
-      "name": "Vertis Infrastructure Trust",
-      "symbol": "VERTIS",
-      "amount": "\u20b93",
+      "name": "Nexus Select Trust",
+      "symbol": "NXST",
+      "amount": "\u20b92.367",
       "cat": "-",
-      "ex": "2026-02-04",
-      "rec": "2026-02-04"
-    },
-    {
-      "name": "KPIT Technologies Limited",
-      "symbol": "KPITTECH",
-      "amount": "\u20b92.25",
-      "cat": "Interim",
-      "ex": "2026-02-04",
-      "rec": "2026-02-04"
-    },
-    {
-      "name": "ITC Limited",
-      "symbol": "ITC",
-      "amount": "\u20b96.50",
-      "cat": "Interim",
-      "ex": "2026-02-04",
-      "rec": "2026-02-04"
-    },
-    {
-      "name": "MAS Financial Services Limited",
-      "symbol": "MASFIN",
-      "amount": "\u20b91.25",
-      "cat": "Interim",
-      "ex": "2026-02-04",
-      "rec": "2026-02-04"
-    },
-    {
-      "name": "Carborundum Universal Limited",
-      "symbol": "CARBORUNIV",
-      "amount": "\u20b91.50",
-      "cat": "Interim",
-      "ex": "2026-02-04",
-      "rec": "2026-02-04"
-    },
-    {
-      "name": "Apcotex Industries Limited",
-      "symbol": "APCOTEXIND",
-      "amount": "\u20b92.50",
-      "cat": "Interim",
-      "ex": "2026-02-04",
-      "rec": "2026-02-04"
-    },
-    {
-      "name": "Indian Energy Exchange Limited",
-      "symbol": "IEX",
-      "amount": "\u20b91.50",
-      "cat": "Interim",
-      "ex": "2026-02-04",
-      "rec": "2026-02-04"
-    },
-    {
-      "name": "Alldigi Tech Limited",
-      "symbol": "ALLDIGI",
-      "amount": "\u20b930",
-      "cat": "Interim",
-      "ex": "2026-02-04",
-      "rec": "2026-02-04"
-    },
-    {
-      "name": "Dolat Algotech Limited",
-      "symbol": "DOLATALGO",
-      "amount": "\u20b90.10",
-      "cat": "Interim",
-      "ex": "2026-02-04",
-      "rec": "2026-02-04"
-    },
-    {
-      "name": "Cube Highways Trust",
-      "symbol": "CUBEINVIT",
-      "amount": "\u20b94.10",
-      "cat": "-",
-      "ex": "2026-02-04",
-      "rec": "2026-02-04"
-    },
-    {
-      "name": "Crizac Limited",
-      "symbol": "CRIZAC",
-      "amount": "\u20b98",
-      "cat": "Interim",
-      "ex": "2026-02-04",
-      "rec": "2026-02-04"
-    },
-    {
-      "name": "Coromandel International Limited",
-      "symbol": "COROMANDEL",
-      "amount": "\u20b99",
-      "cat": "Interim",
-      "ex": "2026-02-04",
-      "rec": "2026-02-04"
-    },
-    {
-      "name": "Gillette India Limited",
-      "symbol": "GILLETTE",
-      "amount": "\u20b9120",
-      "cat": "Interim",
-      "ex": "2026-02-04",
-      "rec": "2026-02-04"
-    },
-    {
-      "name": "The Great Eastern Shipping Company Limited",
-      "symbol": "GESHIP",
-      "amount": "\u20b99",
-      "cat": "Interim",
-      "ex": "2026-02-04",
-      "rec": "2026-02-04"
-    },
-    {
-      "name": "Flair Writing Industries Limited",
-      "symbol": "FLAIR",
-      "amount": "\u20b90.50",
-      "cat": "Interim",
-      "ex": "2026-02-04",
-      "rec": "2026-02-04"
-    },
-    {
-      "name": "Dr. Lal Path Labs Ltd.",
-      "symbol": "LALPATHLAB",
-      "amount": "\u20b93.50",
-      "cat": "Interim",
       "ex": "2026-02-05",
       "rec": "2026-02-05"
     },
     {
-      "name": "GAIL (India) Limited",
-      "symbol": "GAIL",
-      "amount": "\u20b95",
+      "name": "MOIL Limited",
+      "symbol": "MOIL",
+      "amount": "\u20b93.53",
       "cat": "Interim",
       "ex": "2026-02-05",
       "rec": "2026-02-05"
@@ -145,33 +25,9 @@
       "rec": "2026-02-05"
     },
     {
-      "name": "MOIL Limited",
-      "symbol": "MOIL",
-      "amount": "\u20b93.53",
-      "cat": "Interim",
-      "ex": "2026-02-05",
-      "rec": "2026-02-05"
-    },
-    {
-      "name": "Procter & Gamble Hygiene and Health Care Limited",
-      "symbol": "PGHH",
-      "amount": "\u20b9170",
-      "cat": "Interim",
-      "ex": "2026-02-05",
-      "rec": "2026-02-05"
-    },
-    {
       "name": "Styrenix Performance Materials Limited",
       "symbol": "STYRENIX",
       "amount": "\u20b923",
-      "cat": "Interim",
-      "ex": "2026-02-05",
-      "rec": "2026-02-05"
-    },
-    {
-      "name": "Sun Pharmaceutical Industries Limited",
-      "symbol": "SUNPHARMA",
-      "amount": "\u20b911",
       "cat": "Interim",
       "ex": "2026-02-05",
       "rec": "2026-02-05"
@@ -185,68 +41,36 @@
       "rec": "2026-02-05"
     },
     {
-      "name": "Nexus Select Trust",
-      "symbol": "NXST",
-      "amount": "\u20b92.367",
-      "cat": "-",
+      "name": "Procter & Gamble Hygiene and Health Care Limited",
+      "symbol": "PGHH",
+      "amount": "\u20b9170",
+      "cat": "Interim",
       "ex": "2026-02-05",
       "rec": "2026-02-05"
     },
     {
-      "name": "SIS LIMITED",
-      "symbol": "SIS",
-      "amount": "\u20b97",
+      "name": "Dr. Lal Path Labs Ltd.",
+      "symbol": "LALPATHLAB",
+      "amount": "\u20b93.50",
       "cat": "Interim",
-      "ex": "2026-02-06",
-      "rec": "2026-02-06"
+      "ex": "2026-02-05",
+      "rec": "2026-02-05"
     },
     {
-      "name": "SMC Global Securities Limited",
-      "symbol": "SMCGLOBAL",
-      "amount": "\u20b90.60",
+      "name": "Sun Pharmaceutical Industries Limited",
+      "symbol": "SUNPHARMA",
+      "amount": "\u20b911",
       "cat": "Interim",
-      "ex": "2026-02-06",
-      "rec": "2026-02-06"
+      "ex": "2026-02-05",
+      "rec": "2026-02-05"
     },
     {
-      "name": "NTPC Limited",
-      "symbol": "NTPC",
-      "amount": "\u20b92.75",
+      "name": "GAIL (India) Limited",
+      "symbol": "GAIL",
+      "amount": "\u20b95",
       "cat": "Interim",
-      "ex": "2026-02-06",
-      "rec": "2026-02-06"
-    },
-    {
-      "name": "Veedol Corporation Limited",
-      "symbol": "VEEDOL",
-      "amount": "\u20b914",
-      "cat": "Interim",
-      "ex": "2026-02-06",
-      "rec": "2026-02-06"
-    },
-    {
-      "name": "Sundaram Finance Limited",
-      "symbol": "SUNDARMFIN",
-      "amount": "\u20b916",
-      "cat": "Interim",
-      "ex": "2026-02-06",
-      "rec": "2026-02-06"
-    },
-    {
-      "name": "Control Print Limited",
-      "symbol": "CONTROLPR",
-      "amount": "\u20b94",
-      "cat": "Interim",
-      "ex": "2026-02-06",
-      "rec": "2026-02-06"
-    },
-    {
-      "name": "Manba Finance Limited",
-      "symbol": "MANBA",
-      "amount": "\u20b90.25",
-      "cat": "Interim",
-      "ex": "2026-02-06",
-      "rec": "2026-02-06"
+      "ex": "2026-02-05",
+      "rec": "2026-02-05"
     },
     {
       "name": "Quess Corp Limited",
@@ -257,28 +81,20 @@
       "rec": "2026-02-06"
     },
     {
-      "name": "National Aluminium Company Limited",
-      "symbol": "NATIONALUM",
-      "amount": "\u20b94.50",
+      "name": "Nestle India Limited",
+      "symbol": "NESTLEIND",
+      "amount": "\u20b97",
       "cat": "Interim",
       "ex": "2026-02-06",
       "rec": "2026-02-06"
     },
     {
-      "name": "Sharda Cropchem Limited",
-      "symbol": "SHARDACROP",
-      "amount": "\u20b96",
+      "name": "Clean Science and Technology Limited",
+      "symbol": "CLEAN",
+      "amount": "\u20b92",
       "cat": "Interim",
       "ex": "2026-02-06",
       "rec": "2026-02-06"
-    },
-    {
-      "name": "Housing & Urban Development Corporation Limited",
-      "symbol": "HUDCO",
-      "amount": "\u20b91.15",
-      "cat": "Interim",
-      "ex": "2026-02-06",
-      "rec": "2026-02-07"
     },
     {
       "name": "Acme Solar Holdings Limited",
@@ -297,25 +113,33 @@
       "rec": "2026-02-06"
     },
     {
-      "name": "REC Limited",
-      "symbol": "RECLTD",
-      "amount": "\u20b94.60",
+      "name": "Control Print Limited",
+      "symbol": "CONTROLPR",
+      "amount": "\u20b94",
       "cat": "Interim",
       "ex": "2026-02-06",
       "rec": "2026-02-06"
     },
     {
-      "name": "Insecticides (India) Limited",
-      "symbol": "INSECTICID",
-      "amount": "\u20b92",
+      "name": "Amrutanjan Health Care Limited",
+      "symbol": "AMRUTANJAN",
+      "amount": "\u20b91",
+      "cat": "Interim",
+      "ex": "2026-02-06",
+      "rec": "2026-02-07"
+    },
+    {
+      "name": "Manba Finance Limited",
+      "symbol": "MANBA",
+      "amount": "\u20b90.25",
       "cat": "Interim",
       "ex": "2026-02-06",
       "rec": "2026-02-06"
     },
     {
-      "name": "Shriram Pistons & Rings Limited",
-      "symbol": "SHRIPISTON",
-      "amount": "\u20b95",
+      "name": "Sundaram Finance Limited",
+      "symbol": "SUNDARMFIN",
+      "amount": "\u20b916",
       "cat": "Interim",
       "ex": "2026-02-06",
       "rec": "2026-02-06"
@@ -329,9 +153,41 @@
       "rec": "2026-02-06"
     },
     {
-      "name": "Nestle India Limited",
-      "symbol": "NESTLEIND",
+      "name": "SMC Global Securities Limited",
+      "symbol": "SMCGLOBAL",
+      "amount": "\u20b90.60",
+      "cat": "Interim",
+      "ex": "2026-02-06",
+      "rec": "2026-02-06"
+    },
+    {
+      "name": "SIS LIMITED",
+      "symbol": "SIS",
       "amount": "\u20b97",
+      "cat": "Interim",
+      "ex": "2026-02-06",
+      "rec": "2026-02-06"
+    },
+    {
+      "name": "Shriram Pistons & Rings Limited",
+      "symbol": "SHRIPISTON",
+      "amount": "\u20b95",
+      "cat": "Interim",
+      "ex": "2026-02-06",
+      "rec": "2026-02-06"
+    },
+    {
+      "name": "REC Limited",
+      "symbol": "RECLTD",
+      "amount": "\u20b94.60",
+      "cat": "Interim",
+      "ex": "2026-02-06",
+      "rec": "2026-02-06"
+    },
+    {
+      "name": "Sharda Cropchem Limited",
+      "symbol": "SHARDACROP",
+      "amount": "\u20b96",
       "cat": "Interim",
       "ex": "2026-02-06",
       "rec": "2026-02-06"
@@ -345,8 +201,8 @@
       "rec": "2026-02-06"
     },
     {
-      "name": "Clean Science and Technology Limited",
-      "symbol": "CLEAN",
+      "name": "Insecticides (India) Limited",
+      "symbol": "INSECTICID",
       "amount": "\u20b92",
       "cat": "Interim",
       "ex": "2026-02-06",
@@ -361,17 +217,65 @@
       "rec": "2026-02-06"
     },
     {
-      "name": "Power Grid Corporation of India Limited",
-      "symbol": "POWERGRID",
-      "amount": "\u20b93.25",
+      "name": "TCI Express Limited",
+      "symbol": "TCIEXP",
+      "amount": "\u20b97",
+      "cat": "Interim",
+      "ex": "2026-02-06",
+      "rec": "2026-02-07"
+    },
+    {
+      "name": "NTPC Limited",
+      "symbol": "NTPC",
+      "amount": "\u20b92.75",
+      "cat": "Interim",
+      "ex": "2026-02-06",
+      "rec": "2026-02-06"
+    },
+    {
+      "name": "National Aluminium Company Limited",
+      "symbol": "NATIONALUM",
+      "amount": "\u20b94.50",
+      "cat": "Interim",
+      "ex": "2026-02-06",
+      "rec": "2026-02-06"
+    },
+    {
+      "name": "Housing & Urban Development Corporation Limited",
+      "symbol": "HUDCO",
+      "amount": "\u20b91.15",
+      "cat": "Interim",
+      "ex": "2026-02-06",
+      "rec": "2026-02-07"
+    },
+    {
+      "name": "Veedol Corporation Limited",
+      "symbol": "VEEDOL",
+      "amount": "\u20b914",
+      "cat": "Interim",
+      "ex": "2026-02-06",
+      "rec": "2026-02-06"
+    },
+    {
+      "name": "Triveni Turbine Limited",
+      "symbol": "TRITURBINE",
+      "amount": "\u20b92.25",
       "cat": "Interim",
       "ex": "2026-02-09",
       "rec": "2026-02-09"
     },
     {
-      "name": "Bharat Dynamics Limited",
-      "symbol": "BDL",
-      "amount": "\u20b94.50",
+      "name": "Aarti Drugs Limited",
+      "symbol": "AARTIDRUGS",
+      "amount": "\u20b92",
+      "cat": "Interim",
+      "ex": "2026-02-09",
+      "rec": "2026-02-09"
+    },
+    {
+      "name": "Power Grid Corporation of India Limited",
+      "symbol": "POWERGRID",
+      "amount": "\u20b93.25",
       "cat": "Interim",
       "ex": "2026-02-09",
       "rec": "2026-02-09"
@@ -385,12 +289,28 @@
       "rec": "2026-02-09"
     },
     {
+      "name": "Bharat Dynamics Limited",
+      "symbol": "BDL",
+      "amount": "\u20b94.50",
+      "cat": "Interim",
+      "ex": "2026-02-09",
+      "rec": "2026-02-09"
+    },
+    {
       "name": "TSF INVESTMENTS LIMITED",
       "symbol": "TSFINV",
       "amount": "\u20b96.70",
       "cat": "Interim",
       "ex": "2026-02-10",
       "rec": "2026-02-10"
+    },
+    {
+      "name": "Firstsource Solutions Limited",
+      "symbol": "FSL",
+      "amount": "\u20b95.50",
+      "cat": "Interim",
+      "ex": "2026-02-20",
+      "rec": "2026-02-20"
     }
   ],
   "bonuses": [],
@@ -406,18 +326,27 @@
       "rec": "2026-02-06"
     },
     {
-      "name": "Indus Fila Limited",
-      "symbol": "INDUSFILA",
-      "action": "Capital Reduction",
+      "name": "Indus Infra Trust",
+      "symbol": "INDUSINVIT",
+      "action": "Distribution - Rs 3.40 Per Unit Consist Of Rs 1.44 Per Unit As Interest/ Rs 1.96 Per Unit As Return Of Capital",
+      "from": "-",
+      "to": "-",
+      "ex": "2026-02-06",
+      "rec": "2026-02-06"
+    },
+    {
+      "name": "Go Fashion (India) Limited",
+      "symbol": "GOCOLORS",
+      "action": "Buy Back",
       "from": "-",
       "to": "-",
       "ex": "2026-02-09",
       "rec": "2026-02-09"
     },
     {
-      "name": "Go Fashion (India) Limited",
-      "symbol": "GOCOLORS",
-      "action": "Buy Back",
+      "name": "Indus Fila Limited",
+      "symbol": "INDUSFILA",
+      "action": "Capital Reduction",
       "from": "-",
       "to": "-",
       "ex": "2026-02-09",
